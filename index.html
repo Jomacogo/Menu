@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maison des Saveurs — Menú del Chef</title>
+  <meta name="description" content="Menú del Chef de Maison des Saveurs, una experiencia gastronómica de cinco estrellas Michelin. Cocina que honra nuestras raíces y eleva cada detalle." />
+  <link rel="icon" href="/Favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <!-- Particles -->
+  <div class="particles" id="particles" aria-hidden="true"></div>
+
+  <!-- ── HERO ── -->
+  <header class="hero">
+    <div class="hero-noise"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Paris · Fondée en 1987</p>
+
+      <div class="ornament-row" aria-hidden="true">
+        <span class="orn-line"></span>
+        <span class="orn-diamond"></span>
+        <span class="orn-line"></span>
+      </div>
+
+      <h1 class="hero-title">Maison<br/>des Saveurs</h1>
+
+      <div class="stars-row" aria-label="5 estrellas Michelin">
+        <span class="star">★</span><span class="star">★</span><span class="star">★</span>
+        <span class="star">★</span><span class="star">★</span>
+      </div>
+
+      <p class="hero-subtitle">Une expérience gastronomique d'exception</p>
+
+      <div class="ornament-row" aria-hidden="true">
+        <span class="orn-line"></span>
+        <span class="orn-diamond"></span>
+        <span class="orn-line"></span>
+      </div>
+
+      <a href="#menu" class="cta-btn" id="cta-btn">
+        <span>Découvrir le Menu</span>
+        <svg class="cta-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="1.4"
+                stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+
+    <div class="scroll-line" aria-hidden="true"></div>
+  </header>
+
+  <!-- ── MENU ── -->
+  <main id="menu" class="menu-section">
+    <div class="menu-wrap">
+      <article class="menu-card" id="menu-card">
+
+        <!-- Card header -->
+        <header class="card-head">
+          <span class="card-fleur">✦</span>
+          <div class="label-row">
+            <span class="h-line"></span>
+            <span class="label-txt">Menú del Chef</span>
+            <span class="h-line"></span>
+          </div>
+          <h2 class="card-title-big">MENÚ</h2>
+          <p class="card-tagline"><em>Une sélection de saveurs authentiques</em></p>
+        </header>
+
+        <div class="divider-full"></div>
+
+        <!-- ENTRADA -->
+        <section class="course" id="course-entrada" aria-labelledby="lbl-entrada">
+          <div class="course-header">
+            <span class="c-diamond"></span>
+            <h3 class="course-lbl" id="lbl-entrada">Entrada</h3>
+            <span class="c-diamond"></span>
+          </div>
+          <div class="course-body">
+            <p class="dish">Crujiente de papa</p>
+            <p class="dish-sub"><em>con sofrito tradicional</em></p>
+          </div>
+        </section>
+
+        <div class="divider-sec"><span class="sec-diamond">◆</span></div>
+
+        <!-- PLATO PRINCIPAL -->
+        <section class="course" id="course-principal" aria-labelledby="lbl-principal">
+          <div class="course-header">
+            <span class="c-diamond"></span>
+            <h3 class="course-lbl" id="lbl-principal">Plato Principal</h3>
+            <span class="c-diamond"></span>
+          </div>
+          <div class="course-body">
+            <p class="dish">Cereal blanco con ave de corral,<br/>verduras de temporada<br/>y plátano maduro</p>
+          </div>
+        </section>
+
+        <div class="divider-sec"><span class="sec-diamond">◆</span></div>
+
+        <!-- BEBIDA -->
+        <section class="course" id="course-bebida" aria-labelledby="lbl-bebida">
+          <div class="course-header">
+            <span class="c-diamond"></span>
+            <h3 class="course-lbl" id="lbl-bebida">Bebida</h3>
+            <span class="c-diamond"></span>
+          </div>
+          <div class="course-body">
+            <p class="dish">Elixir de frutos morados de la montaña</p>
+            <div class="or-row">
+              <span class="or-line"></span>
+              <span class="or-word"><em>o</em></span>
+              <span class="or-line"></span>
+            </div>
+            <p class="dish dish--alt">Agua de manantial purificada</p>
+          </div>
+        </section>
+
+        <div class="divider-sec"><span class="sec-diamond">◆</span></div>
+
+        <!-- POSTRE -->
+        <section class="course" id="course-postre" aria-labelledby="lbl-postre">
+          <div class="course-header">
+            <span class="c-diamond"></span>
+            <h3 class="course-lbl" id="lbl-postre">Postre</h3>
+            <span class="c-diamond"></span>
+          </div>
+          <div class="course-body">
+            <p class="dish">Delicado soufflé de<br/>texturas lácteas y néctar dorado</p>
+          </div>
+        </section>
+
+        <!-- Card footer -->
+        <footer class="card-foot">
+          <div class="divider-full" style="margin-bottom:1.4rem;"></div>
+          <span class="card-fleur small-fleur">✦</span>
+          <p class="foot-phrase">Cocina que honra nuestras raíces</p>
+          <p class="foot-phrase">y eleva cada detalle</p>
+        </footer>
+
+      </article>
+    </div>
+  </main>
+
+  <!-- ── SITE FOOTER ── -->
+  <footer class="site-foot">
+    <p class="sf-name">Maison des Saveurs</p>
+    <div class="sf-line"></div>
+    <p class="sf-address">12 Rue de la Gastronomie · Paris, France · +33 1 42 00 00 00</p>
+    <p class="sf-hours">Lunes – Domingo · 19:00 – 23:30</p>
+    <p class="sf-copy">© <span id="yr"></span> Maison des Saveurs. Tous droits réservés.</p>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
